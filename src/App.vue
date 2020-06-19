@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="@/assets/mercedes-gla20-1.jpg">
+    <img class="img" src="@/assets/mercedes-gla20-1.jpg">
     <div class="box-container">
       <div class="box-1"></div>
       <div class="box-1">
@@ -71,6 +71,11 @@ export default {
     font-weight: bold;
     align-items: center;
     justify-content: center;
+    }
+    .img{
+      width: 1000px;
+      height: auto;
+
     }
     
 </style>
